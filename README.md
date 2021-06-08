@@ -41,17 +41,23 @@ POST: `http://localhost:8080/events`
 
 ![create event](https://user-images.githubusercontent.com/22433243/121230734-002b7700-c866-11eb-96d9-8232a54b42ec.png)
 
+* * *
+
 #### Get event by ID
 
 GET: `http://localhost:8080/events/{id}` (specific event)
 
 ![get event](https://user-images.githubusercontent.com/22433243/121230759-07528500-c866-11eb-95ba-3a40fd2a6463.png)
 
+* * *
+
 #### Get all events
 
 GET: `http://localhost:8080/events` (all events)
 
 ![all events](https://user-images.githubusercontent.com/22433243/121230781-0d486600-c866-11eb-9f53-424e8529170d.png)
+
+* * *
 
 #### Update event
 
@@ -65,6 +71,8 @@ PATCH: `http://localhost:8080/events/{id}`
 ```
 
 ![update event](https://user-images.githubusercontent.com/22433243/121230798-12a5b080-c866-11eb-835e-5a2212ae4387.png)
+
+* * *
 
 #### Delete event
 
