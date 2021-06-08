@@ -27,6 +27,8 @@ GET: `http://localhost:8080`
 
 ![hello-world](https://user-images.githubusercontent.com/22433243/121230719-fa359600-c865-11eb-93f4-eeb48f1cf586.png)
 
+* * *
+
 #### Create event
 
 POST: `http://localhost:8080/events`
