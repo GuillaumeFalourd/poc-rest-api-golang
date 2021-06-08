@@ -19,19 +19,19 @@ POC of a JSON API that will allow users to create, read, update and delete event
 
 On the repo directory, run: `go run main.go`, then consume the services below on your Rest Client tool.
 
-### Services
+## Services
 
-#### Hello World
+### Hello World
 
-GET: `http://localhost:8080`
+**GET:** `http://localhost:8080`
 
 ![hello-world](https://user-images.githubusercontent.com/22433243/121230719-fa359600-c865-11eb-93f4-eeb48f1cf586.png)
 
 * * *
 
-#### Create event
+### Create event
 
-POST: `http://localhost:8080/events`
+**POST:** `http://localhost:8080/events`
 
 ```json
 {
@@ -45,25 +45,25 @@ POST: `http://localhost:8080/events`
 
 * * *
 
-#### Get event by ID
+### Get event by ID
 
-GET: `http://localhost:8080/events/{id}` (specific event)
+**GET:** `http://localhost:8080/events/{id}`
 
 ![get event](https://user-images.githubusercontent.com/22433243/121230759-07528500-c866-11eb-95ba-3a40fd2a6463.png)
 
 * * *
 
-#### Get all events
+### Get all events
 
-GET: `http://localhost:8080/events` (all events)
+**GET:** `http://localhost:8080/events` (all events)
 
 ![all events](https://user-images.githubusercontent.com/22433243/121230781-0d486600-c866-11eb-9f53-424e8529170d.png)
 
 * * *
 
-#### Update event
+### Update event
 
-PATCH: `http://localhost:8080/events/{id}`
+**PATCH:** `http://localhost:8080/events/{id}`
 
 ```json
 {
@@ -76,9 +76,9 @@ PATCH: `http://localhost:8080/events/{id}`
 
 * * *
 
-#### Delete event
+### Delete event
 
-DELETE: `http://localhost:8080/events/{id}`
+**DELETE:** `http://localhost:8080/events/{id}`
 
 ![delete event](https://user-images.githubusercontent.com/22433243/121230820-1802fb00-c866-11eb-9474-ea4acf3214ad.png)
 
