@@ -1,5 +1,9 @@
 # poc-rest-api-golang
 
+## Description
+
+POC of a JSON API that will allow users to create, read, update and delete events using [mux](https://github.com/gorilla/mux) (A powerful HTTP router and URL matcher for building Go web servers).
+
 ## Prerequisites
 
 ### Golang
@@ -11,13 +15,9 @@
 
 - `go get -u github.com/gorilla/mux`
 
-## Description
-
-POC of a JSON API that will allow users to create, read, update and delete events using [mux](https://github.com/gorilla/mux) (A powerful HTTP router and URL matcher for building Go web servers).
-
 ## How to use?
 
-On the repo directory, run: `go run main.go`
+On the repo directory, run: `go run main.go`, then consume the services below on your Rest Client tool.
 
 ### Services
 
