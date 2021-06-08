@@ -2,7 +2,7 @@
 
 ## Description
 
-POC of a JSON API that will allow users to create, read, update and delete events using [mux](https://github.com/gorilla/mux) (A powerful HTTP router and URL matcher for building Go web servers).
+POC of a _JSON API_ with an **event CRUD** using [mux](https://github.com/gorilla/mux) (A powerful HTTP router and URL matcher for building Go web servers).
 
 ## Prerequisites
 
