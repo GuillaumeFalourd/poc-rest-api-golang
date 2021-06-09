@@ -2,7 +2,7 @@
 
 ## Description
 
-POC of a _JSON API_ with an **event CRUD** using [gorilla/mux](https://github.com/gorilla/mux) (a powerful HTTP router and URL matcher for building Go web servers).
+POC of a _REST API_ with an **event CRUD** using [gorilla/mux](https://github.com/gorilla/mux) (a powerful HTTP router and URL matcher for building Go web servers).
 
 ## Prerequisites
 
